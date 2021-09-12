@@ -1,0 +1,263 @@
+
+body{
+  font-family: "Montserrat";
+  font-weight: normal;
+  text-align: center;
+}
+
+.container-fluid{
+   padding: 7% 15%;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "Montserrat";
+}
+
+p{
+  color: #445d6e;
+  font-weight: 300;
+}
+
+/* section */
+.colored-section{
+  background-color: #02203c;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* heading */
+.big-heading{
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.head-para{
+  color: #FFF;
+  font-weight: 400;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation Bar */
+.navbar{
+  padding: 0 0 3rem;
+}
+
+.navbar-brand{
+  padding-top: 0%;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.navbar-brand p{
+  font-size: 1rem ;
+  color:#f44292;
+}
+
+.nav-item
+{
+  padding: 0 0 10px;
+}
+
+.login{
+ padding-left: 10rem;
+ font-weight: bold; 
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+/* Download button */
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image
+{
+  width: 100%;
+  height: 100%;
+  
+
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+@media (max-width:900px) {
+
+.title
+{
+  text-align: center;
+}
+
+  .title-image
+  {
+    position: static;
+    transform: rotate(0);
+
+  }
+}
+
+
+/* feature box */
+.features
+{
+  position: relative;
+  z-index: 1;
+  padding : 7% 15%;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-box
+{
+  padding: 0.7rem;
+}
+
+.feature-icon
+{
+ color: #626ee3;
+ margin-bottom: 1rem;
+ font-size: 3rem;
+}
+
+
+.card{
+  padding: 10px;
+}
+.item{
+  padding-left:5px;
+  padding-right:5px;
+}
+.item-card{
+  transition:0.5s;
+  cursor:pointer;
+}
+.item-card-title{  
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+}
+.item-card-title i{  
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+}
+.card-title i:hover{
+  transform: scale(1.25) rotate(100deg); 
+  
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.card-text{
+  height:80px;  
+}
+
+.card::before, .card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform .3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: '';
+  pointer-events: none;
+}
+.card::before {
+  transform-origin: left top;
+}
+.card::after {
+  transform-origin: right bottom;
+}
+.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+
+/* conding-interview */
+
+.coding-interviews{
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.study{
+  text-align: left;
+}
+
+.study-button{
+  font-weight:700;
+}
+
+.study-para{
+  margin-top:1rem ;
+  font-size:1.3rem;
+  font-weight:700;
+}
+
+/* outcomes */
+
+.outcomes{
+  padding: 5% ;
+  background-color: #fff;
+  color: #445d6e;
+  font-weight: 500;
+  text-align: center;
+}
+
+.jumbotron{
+  background-color: #f8f8f8;
+}
+
+.outcome-image{
+  height: 300px;
+  width: 700px;
+}
+
+
+/* cta */
+.cta
+{
+  font-size: 1.5rem;
+}
+
+
+/* footer */
+
+.footer{
+  text-align:center;
+}
+
+.pf
+{
+    font-weight: bold;
+}
+
+.ficon
+{
+  margin: 20px 10px;
+}
